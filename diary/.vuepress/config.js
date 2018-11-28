@@ -5,7 +5,7 @@ module.exports = {
     // ['link', { rel: 'icon', href: '/img/logo.ico' }],
     // ['link', { rel: 'manifest', href: '/manifest.json' }],
   ],
-  base: 'diary',
+  base: '/blog/diary/',
   dest: './_dist/diary',
   themeConfig: {
     nav: [
@@ -13,19 +13,7 @@ module.exports = {
       { text: '导读', link: '/essay/' },
       { text: 'External', link: 'https://google.com' }
     ],
-    sidebar: [
-      {
-        title: 'Flutter', // 侧边栏名称
-        // collapsable: true, // 可折叠
-        children: ['/flutter/first-day']
-      },
-      {
-        title: 'CSS', // 侧边栏名称
-        // collapsable: true, // 可折叠
-        children: ['/CSS/first-day']
-      },
-      '/'
-    ],
+    sidebar: ['/'],
     sidebarDepth: 2,
     lastUpdated: 'Last Updated'
   }

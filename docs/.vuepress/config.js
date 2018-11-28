@@ -5,7 +5,7 @@ module.exports = {
     // ['link', { rel: 'icon', href: '/img/logo.ico' }],
     // ['link', { rel: 'manifest', href: '/manifest.json' }],
   ],
-  base: 'docs',
+  base: '/blog/docs/',
   dest: '_dist/docs',
   themeConfig: {
     nav: [
@@ -21,8 +21,13 @@ module.exports = {
       },
       {
         title: 'CSS', // 侧边栏名称
-        // collapsable: true, // 可折叠
+        collapsable: false, // 可折叠
         children: ['/CSS/first-day']
+      },
+      {
+        title: 'VuePress', // 侧边栏名称
+        collapsable: false, // 可折叠
+        children: ['/vuepress/1-config']
       },
       '/'
     ],
