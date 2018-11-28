@@ -1,2 +1,3 @@
 node_modules/
-/dist/
+/_dist/
+docs/.vuepress/dist

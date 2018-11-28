@@ -10,6 +10,8 @@
   },
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "diary:dev": "vuepress dev diary",
+    "diary:build": "vuepress build diary"
   }
 }

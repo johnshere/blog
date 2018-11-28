@@ -1,14 +1,11 @@
-# Hello VuePress!
+# 起步
 
-ausdhuahsduhfausd
-asdhjfahsdjfha
+## 搭建
 
-> asdhajfshdf
+&emsp;&emsp;发现自己学习真是太盲目了，虽然花了时间，学了东西，但是时间一久什么都没有留下来。这样不行！
 
----
+&emsp;&emsp;另外东一枪西一炮，没有系统的学习和记录，对某一个技术的兴趣和活力很快就会丢失，逐渐忘却。以后要想重新拾起也很蛋疼。而且迷迷糊糊的，没有总结归纳很是肤浅啊。
 
-alsdhfjashd<b>ajshd</b>
+## N 次搭建
 
-```
-document.getElementById('test')
-```
+&emsp;&emsp;希望坚持
