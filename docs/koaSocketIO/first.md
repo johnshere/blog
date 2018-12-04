@@ -1,0 +1,19 @@
+# 目的和技术选择
+
+## 目的
+
+&emsp;&emsp;我们系统中后台服务基本都是 http 的，前端 ajax 调用后端是常态，现在希望能够实现服务端通知前端。
+
+&emsp;&emsp;我希望使用 node、koa 来实现后台 http 服务，并同时提供 websocket 服务，以此来实现前后台消息的中转。在现在有的后台服务框架不受影响的前提下提供一个 http rest 的接口给服务器使用，然后通过 websocket 通知前端。
+
+## 选择
+
+&emsp;&emsp;服务端框架选择 koa2 和 sockeIO
+
+&emsp;&emsp;设想中后台服务比较简单，只需要做一个通用的通知接口给其他服务调用即可。选择简化的 koa2，使用 koa-generator 搭建脚手架。
+
+&emsp;&emsp;但是 websocket 就没有选择原生的了，也没有使用 koa-socket。
+
+1. websocket 支持不够广泛，使用 socketIO 就可以不考虑兼容；
+2. socketIO 封装的 API 全面，特别是 room 功能极其强大，考虑到实际业务场景，配合非常好，框架全面；
+3. koa-socket 对 socketIO 简化太多，API 不全，需要自己优化。并且没有具体的文档
