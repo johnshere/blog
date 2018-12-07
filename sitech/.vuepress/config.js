@@ -5,8 +5,8 @@ module.exports = {
     // ['link', { rel: 'icon', href: '/img/logo.ico' }],
     // ['link', { rel: 'manifest', href: '/manifest.json' }],
   ],
-  base: '/blog/docs/',
-  dest: '_dist/docs',
+  base: '/blog/sitech/',
+  dest: '_dist/sitech',
   themeConfig: {
     // nav: [
     //   { text: '主页', link: '/' },
@@ -15,9 +15,9 @@ module.exports = {
     // ],
     sidebar: [
       {
-        title: 'koa&socketIO中转消息',
+        title: '消息推送使用说明',
         // collapsable: true,
-        children: ['/koaSocketIO/1.target', '/koaSocketIO/2.generator']
+        children: ['/instant-msg-server/demo']
       }
       //   {
       //     title: 'Flutter', // 侧边栏名称
