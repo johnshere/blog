@@ -17,7 +17,7 @@ module.exports = {
       {
         title: 'koa&socketIO中转消息',
         // collapsable: true,
-        children: ['/koaSocketIO/1.target', '/koaSocketIO/2.generator']
+        children: ['/koaSocketIO/1.target', '/koaSocketIO/2.create']
       }
       //   {
       //     title: 'Flutter', // 侧边栏名称
