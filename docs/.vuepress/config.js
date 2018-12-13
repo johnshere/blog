@@ -38,5 +38,18 @@ module.exports = {
     ],
     sidebarDepth: 2,
     lastUpdated: 'Last Updated'
-  }
+  },
+  markdown: {
+    // 显示代码行号
+    lineNumbers: true
+  },
+  plugins: [
+    '@vuepress/back-to-top',
+    [
+      '@vuepress/register-components',
+      {
+        componentsDir: './components'
+      }
+    ]
+  ]
 }
