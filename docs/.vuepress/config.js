@@ -14,6 +14,11 @@ module.exports = {
     //   { text: 'External', link: 'https://google.com' }
     // ],
     sidebar: [
+      { title: 'flutter', children: ['/flutter/1.first'] },
+      {
+        title: 'vuepr2ess',
+        children: ['/vuepress/1.first', '/vuepress/2.second']
+      },
       {
         title: 'koa&socketIO中转消息',
         // collapsable: true,
