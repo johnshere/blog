@@ -16,13 +16,13 @@ module.exports = {
     sidebar: [
       { title: 'flutter', children: ['/flutter/1.first'] },
       {
-        title: 'vuepr2ess',
+        title: 'vuepress博客',
         children: ['/vuepress/1.first', '/vuepress/2.second']
       },
       {
         title: 'koa&socketIO中转消息',
         // collapsable: true,
-        children: ['/koaSocketIO/1.target', '/koaSocketIO/2.create']
+        children: ['/koaSocketIO/1.target', '/koaSocketIO/2.create','/koaSocketIO/3.framework']
       }
       //   {
       //     title: 'Flutter', // 侧边栏名称
