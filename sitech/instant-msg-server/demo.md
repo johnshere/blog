@@ -3,9 +3,11 @@
 &emsp;&emsp;此处，在我的设想中现有的系统中对消息上行（即 client > server）是不存在问题，现在需要解决的是消息下行（即 server > client）。所以此处功能是为了解决消息下行而出现的。对于上下行并存的及时通讯暂时没有做处理。  
 &emsp;&emsp;首先从 ~~master~~ **4development** 更新代码
 
+> 即使用 socket.handle.js 文件，文件路径为[http://172.18.49.161/crm-isf/fast-integration-web/blob/4development/src/api/socket.handle.js](http://172.18.49.161/crm-isf/fast-integration-web/blob/4development/src/api/socket.handle.js)
+
 ## 更新依赖
 
-&emsp;&emsp;我新添加了依赖 socket.io，在工程中执行更新
+&emsp;&emsp;我新使用了依赖 socket.io，在工程中执行更新
 
 ```
   yarn install
@@ -115,6 +117,8 @@ handle.loginRoom('456', 'loginWhenFirst', (resp) => {
 ---
 
 ## 消息下发服务 - Server
+
+&emsp;&emsp;后端服务工程源代码：[http://172.18.49.161/crm-isf/instant-msg-server.git](http://172.18.49.161/crm-isf/instant-msg-server.git)
 
 &emsp;&emsp;socket.io 的服务端并没在此篇文章中体现，这里的服务端接口实际上是 http 接口，是提供给后台服务端各处业务代码调用的，用于下发消息。  
 &emsp;&emsp;此处服务端实际是 socket.io 和 koa2 的整合体。
