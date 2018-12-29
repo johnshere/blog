@@ -14,11 +14,13 @@ module.exports = {
     //   { text: 'External', link: 'https://google.com' }
     // ],
     sidebar: [
-      {
-        title: '消息推送使用说明',
-        // collapsable: true,
-        children: ['/instant-msg-server/demo']
-      }
+      '/instant-msg-server/demo',
+      '/common/uglify'
+      // {
+      //   // title: '消息推送使用说明',
+      //   // collapsable: true,
+      //   children: ['/instant-msg-server/demo']
+      // }
       //   {
       //     title: 'Flutter', // 侧边栏名称
       //     // collapsable: true, // 可折叠
