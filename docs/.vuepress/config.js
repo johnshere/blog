@@ -14,7 +14,7 @@ module.exports = {
     //   { text: 'External', link: 'https://google.com' }
     // ],
     sidebar: [
-      { title: 'flutter', children: ['/flutter/1.first'] },
+      // { title: 'flutter', children: ['/flutter/1.first'] },
       {
         title: 'vuepress博客',
         children: ['/vuepress/1.first', '/vuepress/2.second']
@@ -24,22 +24,6 @@ module.exports = {
         // collapsable: true,
         children: ['/koaSocketIO/1.target', '/koaSocketIO/2.create','/koaSocketIO/3.framework']
       }
-      //   {
-      //     title: 'Flutter', // 侧边栏名称
-      //     // collapsable: true, // 可折叠
-      //     children: ['/flutter/first-day']
-      //   },
-      //   {
-      //     title: 'CSS', // 侧边栏名称
-      //     collapsable: false, // 可折叠
-      //     children: ['/CSS/first-day']
-      //   },
-      //   {
-      //     title: 'VuePress', // 侧边栏名称
-      //     collapsable: false, // 可折叠
-      //     children: ['/vuepress/1-config']
-      //   },
-      //   '/'
     ],
     sidebarDepth: 2,
     lastUpdated: 'Last Updated'
