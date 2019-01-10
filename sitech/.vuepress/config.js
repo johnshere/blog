@@ -15,7 +15,8 @@ module.exports = {
     // ],
     sidebar: [
       '/instant-msg-server/demo',
-      '/common/uglify'
+      '/common/uglify',
+      '/common/reinforce'
       // {
       //   // title: '消息推送使用说明',
       //   // collapsable: true,
